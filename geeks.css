@@ -1,0 +1,104 @@
+/*main-container styling section*/
+main{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+}
+.card1-container{
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width:auto;
+    height: fit-content;
+   justify-content: space-between;
+}
+/*first card styling section*/
+
+.card1{
+display: flex;
+flex-direction: column;
+padding: 20px;
+font-size: 14px;
+margin-left:20px;
+}
+.card1 div:hover{
+    background-color: #006777;
+    color: white;
+    
+}
+.card1 div{
+    padding-top: 5px;
+}
+/*second card styling section*/
+
+.card2{
+    display: flex;
+    flex-direction: column;
+}
+ .main-link{
+    display: flex;
+
+    text-decoration: none;
+    color: #006777;
+    font-size: 14px;
+     
+}
+/*main button styling section*/
+.mainbtn1{
+    background-color:#0f0;
+    color: white;
+    border: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    height: 22px;
+}
+.mainbtn2{
+    background-color:#0f0;
+    color: white;
+    border: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    height: 22px;
+}
+.mainbtn3{
+    background-color:#006777;
+    color: white;
+    border: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    height: 22px;
+}
+.mainbtn1:hover{
+    background-color:#6f0;
+    color: white;
+    
+}
+.mainbtn2:hover{
+    background-color:#6f0;
+    color: white;
+    
+}
+.mainbtn3:hover{
+    background-color:#0073ff;
+    color: white;  
+}
+/* @media only screen and (max-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+ */
